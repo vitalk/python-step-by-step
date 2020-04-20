@@ -1,4 +1,4 @@
-def max(l, *b):
+def max(l, *b,):
     m = float("-inf")
 
     for i in l:

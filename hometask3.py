@@ -19,8 +19,7 @@ def get_sum1(a, b):
 
 
 
-
-if __name__ == '__main__'
+if __name__ == '__main__':
     result = get_sum(-10, -20)
     print(result)
     result = get_sum(10, 20)
@@ -30,4 +29,3 @@ if __name__ == '__main__'
     print(result)
     result = get_sum1(10, 20)
     print(result)
-            
