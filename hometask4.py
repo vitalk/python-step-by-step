@@ -1,20 +1,3 @@
-def greek_alphabet(l, x):
-    for i, item in enumerate(l):
-        if item == x:
-            return i
-
-    return -1
-
-greek_alphabet = [1, 2, 3, 4, 5]
-print(find(l, 2))
-print(find(l, 4))
-print(find(l, 10))
-
-
-
-
-
-
 greek_alphabet = (
     "alpha",
     "beta",
@@ -41,3 +24,12 @@ greek_alphabet = (
     "psi",
     "omega",
 )
+
+letters1 = greek_alphabet[0]
+letters2 = greek_alphabet[1]
+def greek_comparator(x, y):
+    return (print(x > y))
+
+
+
+greek_comparator(letters1, letters2)
