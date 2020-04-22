@@ -1,3 +1,9 @@
+def find(greek_alphabet, x) -> int:
+    for i, item in enumerate(greek_alphabet):
+        if item == x:
+            return i
+
+
 greek_alphabet = (
     "alpha",
     "beta",
@@ -25,11 +31,13 @@ greek_alphabet = (
     "omega",
 )
 
-letters1 = greek_alphabet[0]
-letters2 = greek_alphabet[1]
-def greek_comparator(x, y):
-    return (print(x > y))
+find(greek_alphabet, "alpha")  # -> 0
+find(greek_alphabet, "beta")  # -> 1
+find(greek_alphabet, "eta")  # -> 6
+    # a = position letter x in alphabet
+    # b = position letter y in alphabet
+a = find(greek_alphabet, "alpha")
+b = find(greek_alphabet, "beta")
 
-
-
-greek_comparator(letters1, letters2)
+def greek_comparator(a, b) -> int:
+    return a - b
